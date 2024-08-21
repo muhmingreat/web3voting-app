@@ -1,0 +1,148 @@
+.createVoter {
+    width: 95%;
+    margin: 0 auto;
+    margin-block: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 2.4fr 1fr;
+    gap: 2rem;
+}
+
+.voter {
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+}
+
+.voter_container_box {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.voter_container_box p {
+    line-height: .5s;
+}
+
+.input_container {
+    padding-top: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Button {
+    text-align: center;
+}
+
+.voterInfo {
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    width: 15rem;
+    height: 15rem;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 10px;
+    color: blue;
+    text-align: start;
+    box-shadow: 4px 4px 12px rgba(86, 78, 78, 0.75);
+}
+
+.voterInfo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+.voterInfo_paragraph {
+    background-color: azure;
+    box-shadow: 4px 4px 12px rgba(86, 78, 78, 0.75);
+    padding: 1rem;
+    border-radius: 25px;
+    height: 9rem;
+}
+
+.voterInfo_paragraph p {
+    line-height: 1rem;
+}
+
+.voterInfo_paragraph p span {
+    font-size: 12px;
+}
+
+.sideInfo {
+    background-color: beige;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    color:black
+}
+
+.sideInfo_box h4 {
+    background-color: rgb(179, 179, 204);
+    padding: .5rem;
+    border-radius: .2rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.card_box {
+    line-height: 1;
+    border: 1px solid blue;
+    padding: .2rem;
+    box-shadow: 4px 4px 12px rgba(86, 78, 78, 0.75);
+}
+
+.image img {
+    width: 100%;
+
+}
+
+.createVoter_info {
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 4px 4px 12px rgba(86, 78, 78, 0.75);
+    color: black;
+    padding: 2rem;
+}
+
+.sideInfo_para {
+    background-color: aquamarine;
+    padding: .3rem;
+    border-radius: .5rem;
+}
+
+
+@media(max-width: 45em) {
+    .createVoter {
+        width: 95%;
+        grid-template-columns: 1fr;
+    }
+
+    .voter {
+        width: 100%;
+        padding: 1rem;
+
+
+    }
+
+    .input_container {
+        width: 100%;
+    }
+
+    .inputInfo {
+        width: 12rem;
+        height: 12rem;
+        top: 2rem;
+        left: 0;
+        cursor: pointer;
+    }
+
+    .voterInfo_paragraph {
+        font-size: 12px;
+        height: 7.3rem;
+    }
+}

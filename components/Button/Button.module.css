@@ -1,0 +1,16 @@
+.button {
+    margin-block: 2rem;
+    color: red;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all .4s ease-in-out;
+    background: whitesmoke;
+    padding: 1.2rem 2.8rem;
+
+}
+
+.button:hover {
+    background-color: darkgreen;
+    color:black
+}
